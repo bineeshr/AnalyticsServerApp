@@ -7,7 +7,8 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 
-import com.app.gm.analytics.IAnalyticsInterface;
+import com.gm.analytics.IAnalyticsInterface;
+
 
 public class AddService extends Service {
 

@@ -20,8 +20,8 @@ public class AddService extends Service {
     }
     private final IAnalyticsInterface.Stub mBinder = new IAnalyticsInterface.Stub() {
         @Override
-        public String event(Bundle event, Bundle[] options) throws RemoteException {
-            return null;
+        public Bundle track(Bundle[] event, Bundle option) throws RemoteException {
+            return new Bundle();
         }
     };
 }
